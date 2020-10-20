@@ -1,0 +1,79 @@
+<div class="container-fluid">
+     <div class="row">
+
+        <div class="col-sm-12 col-md-4" >
+          <img src="pictoinclude.png" alt="Snow" style="width:50%">
+          <h2>Galaxy S</h2>
+          <button class="button"><a href="s9.php" width="800px" height="2100px" >
+            Learn more</button></a>
+        </div>
+
+       <div class=" col-sm-12 col-md-4" >
+          <img src="picjseries.png" alt="Forest" style="width: 50%;">
+          <h2>Galaxy J</h2>
+          <button class="button"><a href="j6.php" width="800px" height="2100px" >
+             Learn more</button></a>
+        </div>
+
+        <div class=" col-sm-12 col-md-4" >
+          <img src="note.png" alt="Mountains" style="width:50%">
+          <h2>Note</h2>
+              <button class="button"><a href="note.php">
+                 Learn more</button></a>
+      </div>
+
+      <div class="col-sm-12 col-md-4" >
+          <img src="other.png" alt="other" style="width:50%">
+          <h2>All other phones</h2>
+          <button class="button"><a href="othersmartphones.pdf" width="800px" height="2100px" >
+            Learn more</button></a>
+        </div>
+      </div>
+    </div>
+    <style>
+    
+element.style {
+}
+.feature-benefit.s-img-align-left {
+    direction: rtl;
+}
+.feature-benefit.s-img-align-left, .feature-benefit.s-img-align-right {
+    letter-spacing: -4px;
+}
+.feature-benefit {
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 0px;
+    font-size: 0vw;
+    color: #363636;
+}
+.s-bg-white {
+    background: #fff;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body, textarea, input, select, textarea, button {
+    font-family: 'SamsungOneLatin', arial;
+}
+body, textarea, input, select, textarea, button {
+    font-family: "SamsungOne",arial;
+    line-height: 1.32;
+}
+html, body {
+    direction: ltr;
+}
+html {
+    -webkit-text-size-adjust: none;
+}
+.feature-benefit.s-img-align-left:after, .feature-benefit.s-img-align-right:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+</style>

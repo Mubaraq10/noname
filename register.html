@@ -1,0 +1,100 @@
+<head>
+    <link rel="stylesheet" href="views/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,
+	minimum-scale=1.0,maximum-scale=1.0">
+        <script src="views/jquery-3.5.1.min.js"></script>
+        <script src="app/lib/angular-animate.min.js"></script>
+        <script src="views/bootstrap.min.js"></script>
+    
+<script src="views/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $('#header').load('header.html');
+            $('#footer').load("assets/footer.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="text-wrapper" style="min-height: calc(100vh - 71.13px - 132px);">
+    
+ <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-lg-6 col-centered" >
+      <div class="regbox">
+	<form method="post" action="connect1.php" method="POST" style="padding:20px;box-shadow:0px 0px 10px 0px #000;border-radius:10px ;">
+        <h1>Register Here</h1><hr>
+        <p>User Name</p>
+	    <input type="text" name="username" placeholder="Enter Username">
+	    <p>Password</p>
+	    <input type="text" name="password" placeholder="Enter Password">
+	    <p>Mobile number</p>
+	    <input type="text" name="Mobile" placeholder="Enter mobile number">
+	    <p>Email</p>
+	    <input type="email" name="Email" placeholder="Enter Email">
+	    
+        <button type="button"  value="SUBMIT" class="btn btn-outline-dark btn-circle btn-md " name="submit"style="color:white;width:100%; padding=20px;border-radius:5px"><b style="font-size:18pt">submit</b></a>
+        </button>
+		</form>
+</div>
+</div>
+</div>
+ </div>
+
+<div id="footer"></div>
+	
+</body>
+<style>
+    body{
+        background: url(images/reglogo2.jpg);
+        background-size: cover;
+        
+        font-family: sans-serif;
+    
+    }
+
+
+
+.regbox{
+
+	
+	color: black;
+	
+	padding: 40px 30px;
+}
+
+.regbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.regbox input{
+	width: 100%;
+	margin-bottom:20px;
+}
+
+.regbox input[type="text"], input[type="password"], input[type="number"],input[type="email"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 26px;
+	color: black;
+}
+
+.regbox input[type="submit"]
+{
+	border: none;
+	background: blue;
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+</style>
+
